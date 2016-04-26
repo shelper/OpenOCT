@@ -1,0 +1,689 @@
+:Base APTServer.hlp
+:Title Contents
+1 System Introduction
+2 System Introduction=System_Introduction
+2 BDC Series DC Servo Motor Controllers Introduction=BDC_Series_DC_Servo_Motor_Controllers_Introduction
+2 Control Electronics=Control_Electronics
+2 Modular Rack Introduction=Modular_Rack_Introduction
+2 NanoTrak Controller Introduction=NanoTrak_Controller_Introduction
+2 Piezo Controller Introduction=Piezo_Controller_Introduction
+2 Stepper Motor Controller Introduction=Stepper_Motor_Controller_Introduction
+2 T-Cube DC Servo Driver Introduction=T_Cube_DC_Servo_Driver_Introduction
+2 T-Cube Laser Diode Driver Introduction=T_Cube_Laser_Diode_Driver_Introduction
+2 T-Cube Laser Source Introduction=T_Cube_Laser_Source_Introduction
+2 T-Cube NanoTrak Introduction=T_Cube_NanoTrak_Introduction
+2 T-Cube Piezo Driver Introduction=T_Cube_Piezo_Driver_Introduction
+2 T-Cube Solenoid Controller Introduction=T_Cube_Solenoid_Controller_Introduction
+2 T-Cube Stepper Motor Driver Introduction=T_Cube_Stepper_Motor_Driver_Introduction
+2 T-Cube Strain Gauge Reader Introduction=T_Cube_Strain_Gauge_Reader_Introduction
+2 T-Cube Quad Detector Reader Introduction=T_Cube_Quad_Detector_Reader_Introduction
+2 Server Introduction=Server_Introduction
+1 Operating Guide
+2 Motor Controller
+3 Stepper Motor Principle of Operation
+4 How A Stepper Motor Works=How_A_Stepper_Motor_Works
+4 Positive and Negative Moves=Positive_and_Negative_Moves
+4 Velocity Profiles=Velocity_Profiles
+4 Home Position=Home_Position
+4 Limit Switches=Limit_Switches
+4 Maximum and Minimum Positions=Maximum_and_Minimum_Positions
+4 Power Saving=Power_Saving
+4 Backlash Correction=Backlash_Correction
+3 BSC Series Stepper Motor Controller Operation
+4 GUI Panel=GUI_Panel_Motor
+4 Graphical Control Of Motor Positions (Point and Move)=Graphical_Control_Of_Motor_Positions_(Point_and_Move)
+4 Setting Move Sequences=Setting_Move_Sequences
+4 Settings Panel
+5 Settings Panel Introduction=Settings_Panel_Intro_Mot
+5 Settings Panel - Move/Jogs Tab=Settings_Panel_Move_Jogs_Tab_Mot
+5 Settings Panel - Stage/Axis Tab=Settings_Panel_Stage_Axis_Tab_Mot
+5 Settings Panel - Advanced Tab (BSCxxx Series)=Settings_Panel_Advanced_Tab_BSCxxx_Series_Mot
+5 Settings Panel - Rotation Stages Tab=Settings_Panel_Rotation_Stages_Tab_Mot
+5 Settings Panel - Encoder Tab=Encoder_Settings_Mot
+3 BDC Series DC Servo Motor Controller Operation
+4 GUI Panel=GUI_Panel_BDC
+4 Graphical Control Of Motor Positions (Point and Move)=Graphical_Control_Of_Motor_Positions_(Point_and_Move)
+4 Setting Move Sequences=Setting_Move_Sequences
+4 Settings Panel
+5 Settings Panel Introduction=Settings_Panel_Intro_Mot
+5 Settings Panel - Move/Jogs Tab=Settings_Panel_Move_Jogs_Tab_Mot
+5 Settings Panel - Stage/Axis Tab=Settings_Panel_Stage_Axis_Tab_Mot
+5 Settings Panel - Advanced Tab=Settings_Panel_Advanced_Tab_BDC
+3 Encoder
+4 Encoder Introduction=Encoder_Introduction
+4 Enabling Encoder Support=Enabling_Encoder_Support
+4 Encoder Operation=Encoder_Operation
+4 Settings Panel - Encoder Tab=Encoder_Settings_Mot
+2 NanoTrak Controller
+3 NanoTrak Controller - Principle of Operation
+4 The NanoTrak Control Loop=The_NanoTrak_Control_Loop
+4 How NanoTrak Optimizes Optical Power=How_NanoTrak_Optimizes_Optical_Power
+4 Circle Size and Gain Control=Circle_Size_and_Gain_Control
+4 Phase Offset=Phase_Offset
+4 Latch, Track and Tracking Modes=Latch_Track_and_Tracking_Modes
+3 NanoTrak Controller Operation
+4 GUI Panel=GUI_Panel_NanoTrak
+4 Identifying Issue 1 Hardware=Identifying_Issue_1_Hardware_NT
+4 Repositioning of the NanoTrak Circle=Repositioning_of_the_NanoTrak_Circle
+4 Settings Panel - Issue 1 Hardware=Settings_Panel_NanoTrak
+4 Switching From Open to Closed Loop Mode=Switching_From_Open_to_Closed_Loop_Mode_NT
+4 Settings Panel - Later Hardware
+5 Settings Panel Introduction=Settings_Panel_Later_Hardware_NT
+5 Settings Panel - Tracking Tab=Settings_Panel_Tracking_Tab_NT
+5 Settings Panel - Input/Output Tab=Settings_Panel_Input_Output_Tab_NT
+5 Settings Panel - NanoTrak Tab=Settings_Panel_NanoTrak_Tab_NT
+5 Settings Panel - TIA Tab=Settings_Panel_TIA_Tab_NT
+5 Settings Panel - HV Amps Tab=Settings_Panel_HV_Amps_Tab_NT
+2 Piezo Controller
+3 Piezo Controller - Principle of Operation
+4 The Piezoelectric effect=The_Piezoelectric_effect
+4 Hysteresis=Hysteresis
+4 Position Sensing and Feedback=Position_Sensing_and_Feedback
+3 Piezo Controller Operation
+4 Display Modes=Display_Modes_Piezo
+4 GUI Panel=GUI_Panel_Piezo
+4 Setting the Position Sensor Zero=Setting_the_Position_Sensor_Zero
+4 Settings Panel - MPZ601 & BPC00x Late Build
+5 Settings Panel Introduction=Settings_Panel_Later_Hardware_PZ
+5 Settings Panel - General Tab=Settings_Panel_General_Tab_PZ
+5 Settings Panel - HV Amp Tab=Settings_Panel_HV_Amp_Tab_PZ
+5 Settings Panel - Force Sensing Tab=Force_Sensing_Tab_MPZ601_BPC00x_Late_build
+4 Settings Panel - BPC00x Build 1
+5 Settings Panel Introduction - BPC00x Build 1=Settings_Panel_Introduction_BPC00x_Build_1
+5 Identifying Build 1 Hardware=Identifying_Issue_1_Hardware_PZ
+5 General Tab - BPC00x Build 1=Settings_Panel_Piezo
+5 Force Sensing Tab - BPC00x Build 1=Settings_Panel_Force_Sensing_Tab_PZ
+4 Settings Panel - BPC10x
+5 Settings Panel Introduction - BPC10x=Settings_Panel_Introduction_BPC10x
+5 General Tab - BPC10x=Settings_Panel_BPC10x_General
+5 Force Sensing Tab - BPC10x=Force_Sensing_Tab_BPC10x
+2 T-Cube Series
+3 T-Cube Piezo Driver Operation
+4 GUI Panel=GUI_Panel_TPZ001
+4 Setting Panel Rev 1 Units=Setting_Panel_TPZ001
+4 Using The Driver As A Piezo Amplifier Rev 1 Units=Using_The_Driver_As_A_Piezo_Amplifier
+4 Setting Panel Rev 2 Units=Setting_Panel_Rev_2_TPZ001
+4 Using The Driver As A Piezo Amplifier Rev 2 Units=Using_The_Driver_As_A_Piezo_Amp_Rev_2
+3 T-Cube Strain Gauge Reader Operation
+4 GUI Panel=GUI_Panel_SG
+4 Setting the Position Sensor Zero=Setting_the_Position_Sensor_Zero_SG
+4 Settings Panel=Settings_Panel_SG
+4 Use With A Force Sensor=Use_With_A_Force_Sensor
+3 T-Cube Solenoid Controller Operation
+4 GUI Panel=GUI_Panel_TSC
+4 Settings Panel=Settings_Panel_TSC
+3 T-Cube DC Servo Driver Operation
+4 GUI Panel=GUI_Panel_TDC
+4 Graphical Control Of Motor Positions (Point and Move)=Graphical_Control_Of_Motor_Positions_(Point_and_Move)
+4 Setting Move Sequences=Setting_Move_Sequences
+4 Settings Panel
+5 Settings Panel Introduction=Settings_Panel_Intro_Mot
+5 Settings Panel - Move/Jogs Tab=Settings_Panel_Move_Jogs_Tab_Mot
+5 Settings Panel - Stage/Axis Tab=Settings_Panel_Stage_Axis_Tab_Mot
+5 Settings Panel - Advanced Tab=Settings_Panel_Advanced_Tab_OptoDCDriver_Mot
+5 Settings Panel - Rotation Stages Tab=Settings_Panel_Rotation_Stages_Tab_Mot
+3 T-Cube Stepper Motor Driver Operation
+4 Motor Controller - Principle of Operation
+5 How A Stepper Motor Works=How_A_Stepper_Motor_Works
+5 Positive and Negative Moves=Positive_and_Negative_Moves
+5 Velocity Profiles=Velocity_Profiles
+5 Home Position=Home_Position
+5 Limit Switches=Limit_Switches
+5 Maximum and Minimum Positions=Maximum_and_Minimum_Positions
+5 Power Saving=Power_Saving
+5 Backlash Correction=Backlash_Correction
+4 Stepper Driver Operation
+5 GUI Panel=GUI_Panel_TST
+5 Graphical Control Of Motor Positions (Point and Move)=Graphical_Control_Of_Motor_Positions_(Point_and_Move)
+5 Setting Move Sequences=Setting_Move_Sequences
+5 Settings Panel
+6 Settings Panel Introduction=Settings_Panel_Intro_Mot
+6 Settings Panel - Move/Jogs Tab=Settings_Panel_Move_Jogs_Tab_Mot
+6 Settings Panel - Stage/Axis Tab=Settings_Panel_Stage_Axis_Tab_Mot
+6 Settings Panel - Advanced Tab=Settings_Panel_Advanced_Tab_OptoSTDriver_Mot
+6 Settings Panel - Rotation Stages Tab=Settings_Panel_Rotation_Stages_Tab_Mot
+3 T-Cube Laser Source Operation
+4 GUI Panel=GUI_Panel_TLS001
+4 Settings Panel=Settings_Panel_TLS001
+3 T-Cube TEC Controller Operation
+4 GUI Panel=GUI_Panel_TTC001
+4 Settings Panel=Settings_Panel_TTS001
+3 T-Cube Quad Detector Reader
+4 GUI Panel=GUI_Panel_TQD
+4 Settings Panel=Settings_Panel_TQD
+4 Typical Application=Typical_Application_TQD
+1 Programming Guide
+2 IMPORTANT INFORMATION=IMPORTANT_INFORMATION
+2 Programming Guide - Introduction
+3 Introduction=Introduction_Programming_Guide
+3 Software Installation=Software_Installation
+3 APT Utilities=APT_Utilities
+3 APT ActiveX Controls=APT_ActiveX_Controls
+3 ActiveX Control Usage=ActiveX_Control_Usage
+3 ActiveX Control Activation=ActiveX_Control_Activation
+2 Generic Methods Applicable to All Controls
+3 EnableEventDlg=EnableEventDlg
+3 LLSetGetDigOPs=LLSetGetDigOPs
+3 ShowEventDlg=ShowEventDlg
+2 MG17Logger Control
+3 MG17Logger Control Programming - Introduction
+4 Introduction to MG17Logger Control Programming=Introduction_to_Logger_Control_Programming
+3 MG17Logger Control Properties
+4 List=List_LogCtrl
+4 ListCount=ListCount_LogCtrl
+4 ListIndex=ListIndex_LogCtrl
+3 MG17EventLog
+4 MG17EventLog Programming - Introduction
+5 Introduction - MG17EventLog Programming=PG_LogObj_Introduction>Main
+4 MG17EventLog Methods
+5 AddItem=AddItem_LogObj
+5 AddErrorItem=AddErrorItem_LogObj
+5 AddNormalItem=AddNormalItem_LogObj
+5 AddWarningItem=AddWarningItem_LogObj
+5 ClearLog=ClearLog_LogObj
+5 ClearLogFile=ClearLogFile_LogObj
+5 GetEventInfo=GetEventInfo_LogObj
+5 GetLastEventInfo=GetLastEventInfo_LogObj
+5 SaveLog=SaveLog_LogObj
+5 ShowEventInfoDlg=ShowEventInfoDlg_LogObj
+4 MG17EventLog Properties
+5 LogFileNamePath=LogFileNamePath_LogObj
+5 LogSize=LogSize_LogObj
+5 MaxLogSize=MaxLogSize_LogObj
+5 SaveOnEventFlags=SaveOnEventFlags_LogObj
+5 ShowInfoDlgOnEventFlags=ShowInfoDlgOnEventFlags_LogObj
+2 Motor Control
+3 Motor Control Programming - Introduction
+4 Introduction to Motor Controller Programming=Introduction_to_Motor_Controller_Programming
+4 Motor Control Method Summary=Motor_Control_Method_Summary
+3 Motor Control Enumerations
+4 APT_PARENT_HWTYPES=APT_PARENT_HWTYPES_mot
+4 BRAKE_STATE=BRAKE_STATE
+4 BUTTONMODE=BUTTONMODE_Mot
+4 DISPLAYMODE=DISPLAYMODE_Enum_Mot
+4 ENCPOSCONTROLMODE=ENCPOSCONTROLMODE_Mot
+4 ENCPOSSOURCEMODE=ENCPOSSOURCEMODE_Mot
+4 ENCQEPSENSE=ENCQEPSENSE_Mot
+4 HOMEDIR=HOMEDIR_Mot
+4 HOMELIMSWITCH=HOMELIMSWITCH_Mot
+4 HWCHANNEL=HWCHANNEL_Mot
+4 HWLIMSWITCH=HWLIMSWITCH_Mot
+4 INDICATORLEDMODE=INDICATORLEDMODE_Mot
+4 JOGMODE=JOGMODE_Mot
+4 MOVEVELDIR=MOVEVELDIR_Mot
+4 ROTMOVEMODE=ROTMOVEMODE_Mot
+4 ROTPOSDISPMODE=ROTPOSDISPMODE_Mot
+4 SOLOPERATINGMODE (T-Cube)=SOLOPERATINGMODE
+4 SOLOUTPUTSTATE (T-Cube)=SOLOUTPUTSTATE
+4 STAGEAXIS=STAGEAXIS_Mot
+4 STAGETYPE=STAGETYPE_Mot
+4 STAGEDIRSENSE=STAGEDIRSENSE_Mot
+4 STAGEUNITS=STAGEUNITS_Mot
+4 STOPMODE=STOPMODE_Mot
+4 SWLIMITMODE=SWLIMITMODE_Mot
+4 TRIGMODE=TRIGMODE_Mot
+4 TRIGMOVE=TRIGMOVE_Mot
+3 Motor Control Events
+4 EncCalibComplete=EncCalibComplete_Mot
+4 HomeComplete=HomeComplete_Mot
+4 HWResponse=HWResponse_Mot
+4 MoveComplete=MoveComplete_Mot
+4 MoveStopped=MoveStopped_Mot
+4 SettingsChanged=SettingsChanged_Mot
+3 Motor Control Methods
+4 CalibrateEnc=CalibrateEnc_Mot
+4 DeleteParamSet=DeleteParamSet_Mot
+4 DisableHWChannel=DisableHWChannel_Mot
+4 DoEvents=DoEvents_Mot
+4 EnableEventDlg=EnableEventDlg
+4 EnableHWChannel=EnableHWChannel_Mot
+4 GetAbsMovePos=GetAbsMovePos_Mot
+4 GetAbsMovePos_AbsPos=GetAbsMovePos_AbsPos_Mot
+4 GetBLashDist=GetBLashDist_Mot
+4 GetBLashDist_BLashDist=GetBLashDist_BLashDist_Mot
+4 GetBrakeState=GetBrakeState_BDC
+4 GetButtonParams=GetButtonParams_Mot
+4 GetCtrlStarted=GetCtrlStarted_Mot
+4 GetChannelSwitch=GetChannelSwitch_Mot
+4 GetDispMode=GetDispMode_Mot
+4 GetEncCalibTableParams=GetEncCalibTableParams_Mot
+4 GetEncPosControlParams=GetEncPosControlParams_Mot
+4 GetEncPosCorrectParams=GetEncPosCorrectParams_Mot
+4 GetHomeParams=GetHomeParams_Mot
+4 GetHomeParams_HomeVel=GetHomeParams_HomeVel_Mot
+4 GetHomeParams_ZeroOffset=GetHomeParams_ZeroOffset_Mot
+4 GetHWCommsOK=GetHWCommsOK_Mot
+4 GetHWLimSwitches=GetHWLimSwitches_Mot
+4 GetIndicatorLEDMode=GetIndicatorLEDMode_Mot
+4 GetJogMode=GetJogMode_Mot
+4 GetJogMode_Mode=GetJogMode_Mode_Mot
+4 GetJogMode_StopMode=GetJogMode_StopMode_Mot
+4 GetJogStepSize=GetJogStepSize_Mot
+4 GetJogStepSize_StepSize=GetJogStepSize_StepSize_Mot
+4 GetJogVelParams=GetJogVelParams_Mot
+4 GetJogVelParams_Accn=GetJogVelParams_Accn_Mot
+4 GetJogVelParams_MaxVel=GetJogVelParams_MaxVel_Mot
+4 GetMotorParams=GetMotorParams_Mot
+4 GetParentHWInfo=GetParentHWInfo_Mot
+4 GetPIDParams_Deriv=GetPIDParams_Deriv_mot
+4 GetPIDParams_Int=GetPIDParams_Int_Mot
+4 GetPIDParams_Prop=GetPIDParams_Prop_Mot
+4 GetPhaseCurrents=GetPhaseCurrents_Mot
+4 GetPosition=GetPosition_Mot
+4 GetPosition_Position=GetPosition_Position_Mot
+4 GetPositionEx=GetPositionEx_Mot
+4 GetPositionEx_UncalibPosition=GetPositionEx_UncalibPosition
+4 GetPositionOffset=GetPositionOffset_Mot
+4 GetPotParams=GetPotParams_Mot
+4 GetRelMoveDist=GetRelMoveDist_Mot
+4 GetRelMoveDist_RelDist=GetRelMoveDist_RelDist_Mot
+4 GetRotStageModes=GetRotStageModes_Mot
+4 GetStageAxisInfo=GetStageAxisInfo_Mot
+4 GetStageAxisInfo_MaxPos=GetStageAxisInfo_MaxPos_Mot
+4 GetStageAxsInfo_MinPos=GetStageAxsInfo_MinPos_Mot
+4 GetStatusBits_Bits=GetStatusBits_Bits_Mot
+4 GetTriggerParams=GetTriggerParams_Mot
+4 GetVelParams=GetVelParams_Mot
+4 GetVelParams_Accn=GetVelParams_Accn_Mot
+4 GetVelParams_MaxVel=GetVelParams_MaxVel_Mot
+4 GetVelParamLimits=GetVelParamLimits_Mot
+4 Identify=Identify_Mot
+4 LoadParamSet=LoadParamSet_Mot
+4 LLGetStatusBits=LLGetStatusBits_Mot
+4 LLGetStatusBits (T-Cube)=LLGetStatusBits_TDC
+4 LLSaveHWDefaults=LLSaveHWDefaults_Mot
+4 LLSetGetDigOPs=LLSetGetDigOPs
+4 MoveAbsolute=MoveAbsolute_Mot
+4 MoveAbsoluteEnc=MoveAbsoluteEnc_Mot
+4 MoveAbsoluteEx=MoveAbsoluteEx_Mot
+4 MoveAbsoluteRot=MoveAbsoluteRot_Mot
+4 MoveHome=MoveHome_Mot
+4 MoveJog=MoveJog_Mot
+4 MoveRelative=MoveRelative_Mot
+4 MoveRelativeEnc=MoveRelativeEnc_Mot
+4 MoveRelativeEx=MoveRelativeEx_Mot
+4 MoveVelocity=MoveVelocity_Mot
+4 SC_Disable=SC_Disable
+4 SC_Enable=SC_Enable
+4 SC_GetCycleParams=SC_GetCycleParams
+4 SC_GetOperatingMode=SC_GetOperatingMode
+4 SC_GetOPState=SC_GetOPState
+4 SC_SetCycleParams=SC_SetCycleParams
+4 SC_SetOperatingMode=SC_SetOperatingMode
+4 SaveParamSet=SaveParamSet_Mot
+4 SetAbsMovePos=SetAbsMovePos_Mot
+4 SetBLashDist=SetBLashDist_Mot
+4 SetBrakeState=SetBrakeState_BDC
+4 SetButtonParams=SetButtonParams_Mot
+4 SetChannelSwitch=SetChannelSwitch_Mot
+4 SetDispMode=SetDispMode_Mot
+4 SetEncCalibTableParams=SetEncCalibTableParams_Mot
+4 SetEncPosControlParams=SetEncPosControlParams_Mot
+4 SetEncPosCorrectParams=SetEncPosCorrectParams_Mot
+4 SetHomeParams=SetHomeParams_Mot
+4 SetHWLimSwitches=SetHWLimSwitches_Mot
+4 SetIndicatorLEDMode=SetIndicatorLEDMode_Mot
+4 SetJogMode=SetJogMode_Mot
+4 SetJogStepSize=SetJogStepSize_Mot
+4 SetJogVelParams=SetJogVelParams_Mot
+4 SetMotorParams=SetMotorParams_Mot
+4 SetPhaseCurrents=SetPhaseCurrents_Mot
+4 SetPositionOffset=SetPositionOffset_Mot
+4 SetPotParams=SetPotParams_Mot
+4 SetRelMoveDist=SetRelMoveDist_Mot
+4 SetRotStageModes=SetRotStageModes_Mot
+4 SetStageAxisInfo=SetStageAxisInfo_Mot
+4 SetTriggerParams=SetTriggerParams_Mot
+4 SetVelParams=SetVelParams_Mot
+4 ShowEventDlg=ShowEventDlg
+4 ShowSettingsDlg=ShowSettingsDlg_Mot
+4 StartCtrl=StartCtr_Mot
+4 StopCtrl=StopCtrl_Mot
+4 StopImmediate=StopImmediate_Mot
+4 StopProfiled=StopProfiled_Mot
+4 MG Stage Information=MG_Stage_Information
+3 Motor Control Properties
+4 APTHelp=APTHelp_Mot
+4 DisplayMode=DisplayMode_Mot
+4 HWSerialNum=HWSerialNum_Mot
+2 NanoTrak Control
+3 NanoTrak Control Programming - Introduction
+4 Introduction to NanoTrak Programming=Introduction_to_NanoTrak_Programming
+3 NanoTrak Control Enumerations
+4 AMPFEEDBACKTYPE=AMPFEEDBACKTYPE_NT
+4 APT_PARENT_HWTYPES=APT_PARENT_HWTYPES_NT
+4 AUTORANGINGMODE=AUTORANGINGMODE_NT
+4 BNCUNITSMODE=BNCUNITSMODE_NT
+4 CIRCDIAMODE=CIRCDIAMODE_NT
+4 HWCHANNEL=HWCHANNEL_NT
+4 HWMODE=HWMODE_NT
+4 INPUTSOURCE=INPUTSOURCE_NT
+4 LOWPASSFILTER=LOWPASSFILTER_NT
+4 RANGINGMODE=RANGINGMODE_NT
+4 READRANGE=READRANGE_NT
+4 OPCONTROLMODE=OPCONTROLMODE_NT
+4 OUTPUTCURRENTLIMIT=OUTPUTCURRENTLIMIT_NT
+4 OUTPUTLPFILTER=OUTPUTLPFILTER_NT
+4 SIGADJTYPE=SIGADJTYPE_NT
+4 TIAUNITSMODE=TIAUNITSMODE_NT
+4 TNA_LVOUTPUTRANGE=TNA_LVOUTPUTRANGE
+4 TNA_LVOUTPUTROUTE=TNA_LVOUTPUTROUTE
+4 TRAKMODE=TRAKMODE_NT
+4 TRACKMODESET=TRACKMODESET_NT
+4 UNDEROVERREAD=UNDEROVERREAD_NT
+3 NanoTrak Control Events
+4 HWResponse=HWResponse_NT
+4 SettingsChanged=SettingsChanged_NT
+3 NanoTrak Methods
+4 DeleteParamSet=DeleteParamSet_NT
+4 DisableHWChannel=DisableHWChannel_NT
+4 DoEvents=DoEvents_NT
+4 EnableEventDlg=EnableEventDlg
+4 EnableHWChannel=EnableHWChannel_NT
+4 GetAmpControlMode=GetAmpControlMode_NT
+4 GetAmpFeedbackSig=GetAmpFeedbackSig_NT
+4 GetAmpOutputParams=GetAmpOutputParams_NT
+4 GetCircDia=GetCircDia_NT
+4 GetCircDiaLUTVal=GetCircDiaLUTVal_NT
+4 GetCircDiaMode=GetCircDiaMode_NT
+4 GetCircFreq=GetCircFreq_NT
+4 GetCircHomePos=GetCircHomePos_NT
+4 GetCircPosReading=GetCircPosReading_NT
+4 GetInputSrc=GetInputSrc_NT
+4 GetLoopGain=GetLoopGain_NT
+4 GetLPFilter=GetLPFilter_NT
+4 GetMaxTravel=GetMaxTravel_NT
+4 GetParentHWInfo=GetParentHWInfo_NT
+4 GetPhaseComp=GetPhaseComp_NT
+4 GetRange=GetRange_NT
+4 GetRangingMode=GetRangingMode_NT
+4 GetRangingParams=GetRangingParams_NT
+4 GetReading=GetReading_NT
+4 GetTrackMode=GetTrackMode_NT
+4 GetTrackThreshold=GetTrackThreshold_NT
+4 GetUnitsMode=GetUnitsMode_NT
+4 Identify=Identify_NT
+4 Latch=Latch_NT
+4 LLSaveHWDefaults=LLSaveHWDefaults_NT
+4 LLSetGetDigOPs=LLSetGetDigOPs
+4 LoadParamSet=LoadParamSet_NT
+4 MoveCircHome=MoveCircHome_NT
+4 SaveParamSet=SaveParamSet_NT
+4 SetAmpControlMode=SetAmpControlMode_NT
+4 SetAmpFeedbackSig=SetAmpFeedbackSig_NT
+4 SetAmpOutputParams=SetAmpOutputParams_NT
+4 SetCircDia=SetCircDia_NT
+4 SetCircDiaLUTVal=SetCircDiaLUTVal_NT
+4 SetCircDiaMode=SetCircDiaMode_NT
+4 SetCircFreq=SetCircFreq_NT
+4 SetCircHomePos=SetCircHomePos_NT
+4 SetHWMode=SetHWMode_NT
+4 SetInputSrc=SetInputSrc_NT
+4 SetLoopGain=SetLoopGain_NT
+4 SetLPFilter=SetLPFilter_NT
+4 SetPhaseComp=SetPhaseComp_NT
+4 SetPowerCaptureParams=SetPowerCaptureParams_NT
+4 SetRange=SetRange_NT
+4 SetRangingMode=SetRangingMode_NT
+4 SetRangingParams=SetRangingParams_NT
+4 SetTrackThreshold=SetTrackThreshold_NT
+4 SetUnitsMode=SetUnitsMode_NT
+4 ShowEventDlg=ShowEventDlg
+4 StartCtrl=StartCtrl_NT
+4 StartPowerCapture=StartPowerCapture_NT
+4 StopCtrl=StopCtrl_NT
+4 StopPowerCapture=StopPowerCapture_NT
+4 TNA_GetDispIntensity=TNA_GetDispIntensity
+4 TNA_GetSigOutputParams=TNA_GetSigOutputParams
+4 TNA_SetDispIntensity=TNA_SetDispIntensity
+4 TNA_SetSigOutputParams=TNA_SetSigOutputParams
+4 Track=Track_NT
+4 TrackEx=TrackEx_NT
+3 NanoTrak Control Properties
+4 APTHelp=APTHelp_NT
+4 HWSerialNum=HWSerialNum_NT
+2 Piezo Control
+3 Piezo Control Programming - Introduction
+4 Introduction to Piezo Controller Programming=Introduction_to_Piezo_Controller_Programming
+4 Piezo Control Method Summary=Piezo_Control_Method_Summary
+3 Piezo Control Enumerations
+4 AMPFEEDBACKTYPE=AMPFEEDBACKTYPE_PZ
+4 APT_PARENT_HWTYPES=APT_PARENT_HWTYPES_PZ
+4 DISPUNITSMODE (T-Cube)=DISPUNITSMODE
+4 HUBANALOGUEINPUT (T-Cube)=HUBANALOGUEINPUT
+4 HUBANALOGUEOUTPUT (T-Cube)=HUBANALOGUEOUTPUT
+4 HWCHANNEL=HWCHANNEL_PZ
+4 HWMODE=HWMODE_PZ
+4 INPUTSOURCE=INPUTSOURCE_PZ
+4 LLPZREQIDS=LLPZREQIDS_PZ
+4 LUTVALUETYPE=LUTVALUETYPE-PZ
+4 LVOUTTRIGBNCMODE=LVOUTTRIGBNCMODE_PZ
+4 OPCONTROLMODE=OPCONTROLMODE_PZ
+4 OPDISPMODE=OPDISPMODE_PZ
+4 OUTPUTCURRENTLIMIT=OUTPUTCURRENTLIMIT_PZ
+4 OUTPUTLPFILTER=OUTPUTLPFILTER_PZ
+4 OUTPUTLUTMODE=OUTPUTLUTMODE_PZ
+4 OUTPUTVOLTAGELIMIT (T-Cube)=OUTPUTVOLTAGELIMIT
+4 TRIGGERSENSE=TRIGGERSENSE_PZ
+3 Piezo Control Events
+4 HWResponse=HWResponse_PZ
+4 SettingsChanged=SettingsChanged_PZ
+3 Piezo Methods
+4 DeleteParamSet=DeleteParamSet_PZ
+4 DisableHWChannel=DisableHWChannel_PZ
+4 DoEvents=DoEvents_PZ
+4 EnableEventDlg=EnableEventDlg
+4 EnableHWChannel=EnableHWChannel_PZ
+4 GetAmpFeedbackSig=GetAmpFeedbackSig_PZ
+4 GetAmpOutputParams=GetAmpOutputParams_PZ
+4 GetControlMode=GetControlMode_PZ
+4 GetDispIntensity (T-Cube)=GetDispIntensity_TPZ
+4 GetForceSenseParams=GetForceSenseParams_PZ
+4 GetHubAnalogueChanIn (T-Cube)=GetHubAnalogueChanIn_TPZ
+4 GetIPSource=GetIPSource_PZ
+4 GetJogStepSize=GetJogStepSize_PZ
+4 GetMaxTravel=GetMaxTravel_PZ
+4 GetParentHWInfo=GetParentHWInfo_PZ
+4 GetPIConsts=GetPIConsts_PZ
+4 GetPosOutput=GetPosOutput_PZ
+4 GetVoltOutput=GetVoltOutput_PZ
+4 GetVoltageOutputLimit (T-Cube)=GetVoltageOutputLimit_TPZ
+4 GetVoltPosDispMode=GetVoltPosDispMode_PZ
+4 Identify=Identify_PZ
+4 LLGetStatusBits=LLGetStatusBits_PZ
+4 LLSaveHWDefaults=LLSaveHWDefaults_PZ
+4 LLSetGetDigOPs=LLSetGetDigOPs
+4 LoadParamSet=LoadParamSet_PZ
+4 SaveParamSet=SaveParamSet_PZ
+4 SetAmpFeedbackSig=SetAmpFeedbackSig_PZ
+4 SetAmpOutputParams=SetAmpOutputParams_PZ
+4 SetControlMode=SetControlMode_PZ
+4 SetDispIntensity (T-Cube)=SetDispIntensity_TPZ
+4 SetForceSenseParams=SetForceSenseParams_PZ
+4 SetHubAnalogueChanIn (T-Cube)=SetHubAnalogueChanIn_TPZ
+4 SetHWMode=SetHWMode_PZ
+4 SetJogStepSize=SetJogStepSize_PZ
+4 SetIPSource=SetIPSource_PZ
+4 SetLVTrigBNCMode=SetLVTrigBNCMode_PZ
+4 SetOutputLUTParams=SetOutputLUTParams_PZ
+4 SetOutputLUTTrigParams=SetOutputLUTTrigParams_PZ
+4 SetOutputLUTValue=SetOutputLUTValue_PZ
+4 SetOutputLUTValueTypes=SetOutputLUTValueTypes_PZ
+4 SetPIConsts=SetPIConsts_PZ
+4 SetPosOutput=SetPosOutput_PZ
+4 SetVoltOutput=SetVoltOutput_PZ
+4 SetVoltageOutputLimit (T-Cube)=SetVoltageOutputLimit_TPZ
+4 SetVoltPosDispMode=SetVoltPosDispMode_PZ
+4 SG_DeleteParamSet (T-Cube)=SG_DeleteParamSet
+4 SG_GetHubAnalogueChanOut (T-Cube)=SG_GetHubAnalogueChanOut
+4 SG_GetDispIntensity (T-Cube)=SG_GetDispIntensity
+4 SG_GetDispMode (T-Cube)=SG_GetDispMode
+4 SG_GetForceCalib (T-Cube)=SG_GetForceCalib
+4 SG_GetMaxTravel (T-Cube)=SG_GetMaxTravel
+4 SG_GetReading (T-Cube)=SG_GetReading
+4 SG_LoadParamSet (T-Cube)=SG_LoadParamSet
+4 SG_SaveParamSet (T-Cube)=SG_SaveParamSet
+4 SG_SetDispIntensity (T-Cube)=SG_SetDispIntensity
+4 SG_SetDispMode (T-Cube)=SG_SetDispMode
+4 SG_SetForceCalib (T-Cube)=SG_SetForceCalib
+4 SG_SetHubAnalogueChanOut (T-Cube)=SG_SetHubAnalogueChanOut
+4 SG_ZeroPosition (T-Cube)=SG_ZeroPosition
+4 ShowEventDlg=ShowEventDlg
+4 StartCtrl=StartCtrl_PZ
+4 StartOPLUT=StartOPLUT_PZ
+4 StopCtrl=StopCtrl_PZ
+4 StopOPLUT=StopOPLUT_PZ
+4 ZeroPosition=ZeroPosition_PZ
+3 Piezo Control Properties
+4 APTHelp=APTHelp_PZ
+4 HWSerialNum=HWSerialNum_PZ
+2 System Control
+3 System Control Programming - Introduction
+4 Introduction to System Control Programming=Introduction_to_System_Control_Programming
+3 System Control Enumerations
+4 APT_HW_TYPES_EX=APT_HW_TYPES_EX_SysCtrl
+4 MG17_HW_TYPES=MG17_HW_TYPES_SysCtrl
+3 System Control Events
+4 HWUnitAdded=HWUnitAdded_SysCtrl
+4 HWUnitRemoved=HWUnitRemoved_SysCtrl
+3 System Control Methods
+4 EnableEventDlg=EnableEventDlg
+4 GetHWInfo=GetHWInfo_SysCtrl
+4 GetHWSerialNum=GetHWSerialNum_SysCtrl
+4 GetHWSerialNumberEx=GetHWSerialNumberEx_SysCtrl
+4 GetHWType=GetHWType_SysCtrl
+4 GetHWTypeEx=GetHWTypeEx_SysCtrl
+4 GetNumHWUnits=GetNumHWUnits_SysCtrl
+4 GetNumHWUnitsEx=GetNumHWUnitsEx_SysCtrl
+4 ShowEventDlg=ShowEventDlg
+4 StartCtrl=StartCtrl_SysCtrl
+4 StopCtrl=StopCtrl_SysCtrl
+2 APTLaser Control
+3 T-Cube Laser Control Object Programming - Introduction
+4 Introduction To Laser Control Object Programming=Introduction_To_Laser_Control_Object_Programming
+3 T-Cube Laser Control Object Enumerations
+4 DISPUNITSMODE=DISPUNITSMODE_TLS
+4 LDCONTROLMODE=LDCONTROLMODE_TLD
+4 LDDISPTYPEMODE=LDDISPTYPEMODE
+4 LDPOLARITY=LDPOLARITY
+4 LDPWRCTRLSOURCE=LDPWRCTRLSOURCE_TLD
+4 PWRCTRLSOURCE=PWRCTRLSOURCE_TLS
+3 T-Cube Laser Control Object Methods
+4 DeleteParamSet=DeleteParamSet_TLS
+4 DisableOutput=DisableOutput_TLS
+4 DoEvents=DoEvents_TLS
+4 EnableEventDlg=EnableEventDlg
+4 EnableOutput=EnableOutput_TLS
+4 GetWACalibFactor=GetWACalibFactor_TLD
+4 GetControlMode=GetControlMode_TLD
+4 GetControlSrc=GetControlSrc_TLS
+4 GetDispIntensity=GetDispIntensity_TLS
+4 GetGUIDispUnits=GetGUIDispUnits_TLS
+4 GetHWDispUnits=GetHWDispUnits_TLS
+4 GetLaserPolarity=GetLaserPolarity_TLD
+4 ReadLaserVoltage=ReadLaserVoltage_TLD
+4 GetMaxLimits=GetMaxLimits_TLS
+4 GetPowerSetpoint=GetPowerSetpoint_TLS
+4 GetWavelength=GetWavelength_TLS
+4 Identify=Identify_TLS
+4 LLGetStatusBits=LLGetStatusBits_TLS
+4 LLSetGetDigOPs=LLSetGetDigOPs
+4 LoadParamSet=LoadParamSet_TLS
+4 ReadLaserPower=ReadLaserPower_TLS
+4 ReadLaserCurrent=ReadLaserCurrent_TLS
+4 SaveParamSet=SaveParamSet_TLS
+4 SetWACalibFactor=SetWACalibFactor_TLD
+4 SetControlMode=SetControlMode_TLD
+4 SetControlSrc=SetControlSrc_TLS
+4 SetDispIntensity=SetDispIntensity_TLS
+4 SetGUIDispUnits=SetGUIDispUnits_TLS
+4 SetHWDispUnits=SetHWDispUnits_TLS
+4 SetLaserPolarity=SetLaserPolarity_TLD
+4 SetPowerSetpoint=SetPowerSetpoint_TLS
+4 ShowEventDlg=ShowEventDlg
+4 StartCtrl=StartCtrl_TLS
+4 StopCtrl=StopCtrl_TLS
+3 T-Cube Laser Control Object Properties
+4 HWSerialNum=HWSerialNum_TLS
+4 APTHelp=APTHelp_TLS
+2 APTTEC Control
+3 T-Cube TEC Controller Programming - Introduction
+4 Introduction To TEC Controller Programming=Introduction_To_TEC_Controller_Programming
+3 T-Cube TEC Controller Enumerations
+4 DISPMODE=DISPMODE_TTC
+4 TEMPSENSOR=TEMPSENSOR
+3 T-Cube TEC Controller Methods
+4 DeleteParamSet=DeleteParamSet_TTC
+4 DisableTEC=DisableTEC_TTC
+4 DoEvents=DoEvents_TTC
+4 EnableEventDlg=EnableEventDlg
+4 EnableTEC=EnableTEC_TTC
+4 GetCurrentLim=GetCurrentLim_TTC
+4 GetDispIntensity=GetDispIntensity_TTC
+4 GetDispMode=GetDispMode_TTC
+4 GetPIDParams=GetPIDParams_TTC
+4 GetTempSensor=GetTempSensor_TTC
+4 GetTempSetpoint=GetTempSetpoint_TTC
+4 Identify=Identify_TTC
+4 LLGetStatusBits=LLGetStatusBits_TTC
+4 LLSetGetDigOPs=LLSetGetDigOPs
+4 LoadParamSet=LoadParamSet_TTC
+4 ReadTECCurrent=ReadTECCurrent_TTC
+4 ReadTECTemp=ReadTECTemp_TTC
+4 SaveParamSet=SaveParamSet_TTC
+4 SetCurrentLim=SetCurrentLim_TTC
+4 SetDispIntensity=SetDispIntensity_TTC
+4 SetDispMode=SetDispMode_TTC
+4 SetPIDParams=SetPIDParams_TTC
+4 SetTempSensor=SetTempSensor_TTC
+4 SetTempSetpoint=SetTempSetpoint_TTC
+4 ShowEventDlg=ShowEventDlg
+4 StartCtrl=StartCtrl_TTC
+4 StopCtrl=StopCtrl_TTC
+3 T-Cube TEC Controller Properties
+4 APTHelp=APTHelp_TTC
+4 HWSerialNum=HWSerialNum_TTC
+2 Return Codes
+3 Return Codes=Return_Codes
+2 APTQuad Control
+3 T-Cube Quad Detector Reader Programming - Introduction
+4 Introduction To Quad Detector Reader Programming=Introduction_To_Quad_Detector_Reader_Programming
+3 T-Cube Quad Detector Reader Enumerations
+4 QUADOPERMODE=QUADOPERMODE_TQD
+4 DISPMODE=DISPMODE_TQD
+4 QUAD_LVOUTPUTROUTE=QUAD_LVOUTPUTROUTE_TQD
+4 QUAD_OPENLOOPPOSDEMANDS=QUAD_OPENLOOPPOSDEMANDS_TQD
+4 QUAD_CLOSEDLOOPPOSDEMANDSENSE=QUAD_CLOSEDLOOPPOSDEMANDSENSE_TQD
+3 T-Cube Quad Detector Reader Methods
+4 DeleteParamSet=DeleteParamSet_TQD
+4 DoEvents=DoEvents_TQD
+4 EnableEventDlg=EnableEventDlg
+4 GetDispIntensity=GetDispIntensity_TQD
+4 GetPIDParams=GetPIDParams_TQD
+4 GetPosDemandMinMax=GetPosDemandMinMax_TQD
+4 GetPositionOutputs=GetPositionOutputs_TQD
+4 GetPosDemandParams=GetPosDemandParams_TQD
+4 GetQuadDispMode=GetQuadDispMode_TQD
+4 GetQuadMode=GetQuadMode_TQD
+4 GetSigOutputParams=GetSigOutputParams_TQD
+4 Identify=Identify_TQD
+4 LLGetStatusBits=LLGetStatusBits_TQD
+4 LLSetGetDigOPs=LLSetGetDigOPs
+4 LoadParamSet=LoadParamSet_TQD
+4 ReadPositionDemands=ReadPositionDemands_TQD
+4 ReadSumDiffSignals=ReadSumDiffSignals_TQD
+4 SaveParamSet=SaveParamSet_TQD
+4 SetDispIntensity=SetDispIntensity_TQD
+4 SetPIDParams=SetPIDParams_TQD
+4 SetPosDemandMinMax=SetPosDemandMinMax_TQD
+4 SetPosDemandParams=SetPosDemandParams_TQD
+4 SetPositionOutputs=SetPositionOutputs_TQD
+4 SetQuadDispMode=SetQuadDispMode_TQD
+4 SetQuadMode=SetQuadMode_TQD
+4 SetSigOutputParams=SetSigOutputParams_TQD
+4 ShowEventDlg=ShowEventDlg
+4 StartCtrl=StartCtrl_TQD
+4 StopCtrl=StopCtrl_TQD
+3 T-Cube Quad Detector Reader Properties
+4 HWSerialNum=HWSerialNum_TQD
+4 APTHelp=APTHelp_TQD

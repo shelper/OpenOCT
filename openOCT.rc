@@ -1,0 +1,352 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\openOCT.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\openOCT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 288, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About openOCT"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "openOCT Version 2008-11",IDC_STATIC,202,14,79,9,SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,213,44,50,16,WS_GROUP
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP,10,8,60,55
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP,72,8,60,55
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,134,8,60,55
+    LTEXT           "Author: Zhijia Yuan",IDC_STATIC,208,29,66,10
+END
+
+IDD_OCT_DIALOG DIALOGEX 1, 1, 198, 358
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "openOCT"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "START",IDC_START_IMAQ,72,186,28,16
+    PUSHBUTTON      "PAUSE",IDC_PAUSE_IMAQ,71,186,29,16,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Cali",IDC_CALIBRATION_IMAQ,39,186,28,16
+    PUSHBUTTON      "Get Ref",IDC_GETREF_IMAQ,7,186,28,16
+    EDITTEXT        IDC_A_LINE_NUM,64,60,34,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SCAN_VMINX,149,59,34,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SCAN_VMAXX,149,75,34,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "START",IDC_IMAQ_FRAMES_START,161,186,29,16
+    LTEXT           "VminX(V):",IDC_STATIC,111,61,31,9
+    LTEXT           "A Line#:",IDC_STATIC,30,63,29,9
+    LTEXT           "VmaxX(V):",IDC_STATIC,108,77,33,9
+    PUSHBUTTON      "RESET",IDC_RESET_IMAQ,105,186,28,16
+    EDITTEXT        IDC_FRAME_NUM,64,140,33,13,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Frame #:",IDC_STATIC,27,143,31,9
+    CONTROL         "BackScan",IDC_SCAN_BACKWARD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,147,41,10
+    EDITTEXT        IDC_ITERATION_NUM,64,76,34,13,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Iteration #:",IDC_STATIC,19,79,38,9
+    CONTROL         "Recon",IDC_RECONSTRUCT_IMAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,112,147,33,10
+    GROUPBOX        "Scanner Setting",IDC_STATIC,7,49,184,133
+    EDITTEXT        IDC_FILE_PATH,7,166,165,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_FILEPATH_BUTTON,172,166,18,12
+    GROUPBOX        "Camera Settings",IDC_STATIC,7,5,184,42,WS_DISABLED
+    EDITTEXT        IDC_CAM_GAIN,56,16,27,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CAM_GAIN_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,12,32,68,12
+    LTEXT           "Gain(.01):",IDC_STATIC,16,17,34,8
+    EDITTEXT        IDC_CAM_IT,160,16,27,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CAM_IT_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,123,32,68,12
+    LTEXT           "OPR #:",IDC_STATIC,124,18,25,8
+    EDITTEXT        IDC_SCAN_FREQ,64,92,34,13,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Scan Freq:",IDC_STATIC,22,95,38,9
+    EDITTEXT        IDC_AVG_NUM,64,108,33,13,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Average #:",IDC_STATIC,20,111,39,9
+    PUSHBUTTON      "STOP",IDC_IMAQ_FRAMES_STOP,161,186,29,16,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_DISPERSION,64,124,33,13,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "Dispersion:",IDC_STATIC,22,127,34,9
+    EDITTEXT        IDC_SCAN_VMINY,149,91,34,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SCAN_VMAXY,149,107,34,13,ES_AUTOHSCROLL
+    LTEXT           "VminY(V):",IDC_STATIC,111,93,27,9
+    LTEXT           "VmaxY(V):",IDC_STATIC,108,109,33,9
+    CONTROL         "StepX",IDC_SCAN_STEPX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,137,41,10
+    CONTROL         "StepY",IDC_SCAN_STEPY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,112,137,34,10
+    EDITTEXT        IDC_FRAME_SHIFT,149,123,33,13,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "FrameThickness:",IDC_STATIC,104,125,37,9,WS_TABSTOP
+    LTEXT           "openOCT Version 2008-11",IDC_STATIC,113,334,78,8,SS_NOPREFIX
+    LTEXT           "Zhijia Yuan",IDC_STATIC,155,343,36,8
+END
+
+IDD_CURVE_DLG DIALOGEX 0, 0, 331, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Spcectrum"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Intensity",IDC_AXIAL_INTENSITY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,27,44,11
+    PUSHBUTTON      "Start",IDC_START_CURVE,6,69,39,16
+    PUSHBUTTON      "Save",IDC_SAVE_CURVE,6,92,39,16
+    PUSHBUTTON      "Pause",IDC_PAUSE_CURVE,6,69,39,16,NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "Spectrum",IDC_RAW_SPECTRUM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,2,46,11
+    CONTROL         "Phase",IDC_AXIAL_PHASE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,40,41,11
+    PUSHBUTTON      "Load",IDC_LOAD_CURVE,6,117,39,16
+    CONTROL         "Calied",IDC_CALIED_SPECTRUM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,14,46,11
+    CONTROL         "Power",IDC_POWER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,52,41,11
+END
+
+IDD_INTENSITY_DLG DIALOGEX 0, 0, 305, 321
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Intensity"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Start",IDC_START_INTENSITY,6,2,57,16
+    PUSHBUTTON      "Pause",IDC_PAUSE_INTENSITY,6,2,57,16,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Save",IDC_SAVE_INTENSITY,6,19,25,16
+    LTEXT           "Gain:",IDC_STATIC,5,84,18,8
+    CONTROL         "",IDC_INTENSITY_GAIN,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,92,65,11
+    EDITTEXT        IDC_INTENSITY,10,135,35,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Intensity:",IDC_STATIC,3,124,47,11
+    EDITTEXT        IDC_DEPTH,10,209,35,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Depth (um):",IDC_STATIC,2,198,47,11
+    CONTROL         "AOI",IDC_AOI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,276,29,10
+    CONTROL         "Zoom",IDC_ZOOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,285,33,10
+    PUSHBUTTON      "Load",IDC_LOAD_INTENSITY,6,36,57,16
+    EDITTEXT        IDC_FRAME_RATE,10,233,36,13,ES_AUTOHSCROLL | WS_DISABLED | WS_GROUP
+    LTEXT           "f/s",IDC_STATIC,3,222,12,9
+    CONTROL         "Hot Color",IDC_HOT_COLOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,267,46,10
+    CONTROL         "Auto Save",IDC_AUTOSAVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,249,49,10
+    CONTROL         "",IDC_FILE_SPIN,"msctls_updown32",UDS_ARROWKEYS | WS_DISABLED,35,72,15,12
+    EDITTEXT        IDC_FILE_INDEX,5,72,30,12,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Recon",IDC_RECON_INTENSITY,6,53,57,16
+    CONTROL         "Expand",IDC_EXPAND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,294,40,10
+    LTEXT           "OffSet:",IDC_STATIC,6,101,25,8
+    CONTROL         "",IDC_INTENSITY_OFFSET,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,109,65,11
+    CONTROL         "Log Scale",IDC_LOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,3,258,46,10
+    PUSHBUTTON      ">>",IDC_REPLAY,49,72,14,12
+    EDITTEXT        IDC_VOLTAGEY,10,182,35,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "VoltageY (V):",IDC_STATIC,3,172,47,11
+    EDITTEXT        IDC_VOLTAGEX,10,159,35,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "VoltageX (V):",IDC_STATIC,4,149,47,11
+    PUSHBUTTON      "Snap",IDC_SNAP,38,19,25,16
+END
+
+IDD_PHASE_DLG DIALOGEX 0, 0, 301, 118
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Phase"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Pause",IDC_PAUSE_PHASE,4,9,57,16,NOT WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "Save",IDC_SAVE_PHASE,4,30,57,16
+    PUSHBUTTON      "Start",IDC_START_PHASE,4,9,57,16
+    LTEXT           "IntensityThresh",IDC_INTENSITY_TEXT1,5,52,52,8
+    CONTROL         "",IDC_PHASE_THRESH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,0,60,65,11
+    EDITTEXT        IDC_PHASE,12,87,35,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Phase:",IDC_STATIC,5,76,47,11
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "openOCT.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "openOCT.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_OCT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 351
+        HORZGUIDE, 179
+    END
+
+    IDD_CURVE_DLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_INTENSITY_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 303
+        BOTTOMMARGIN, 317
+    END
+
+    IDD_PHASE_DLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 300
+        BOTTOMMARGIN, 116
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_CURVE
+    BUTTON      ID_INTENSITY
+    BUTTON      ID_PHASE
+    BUTTON      ID_RESET_WND_POS
+    SEPARATOR
+    BUTTON      ID_LOAD_CONF
+    BUTTON      ID_SAVE_CONF
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR             BITMAP                  "res\\ToolBar.bmp"
+IDB_ABOUT               BITMAP                  "res\\OCTLAB logo.bmp"
+IDB_FLOW                BITMAP                  "res\\BloodFlow.bmp"
+IDB_CELL                BITMAP                  "res\\Cell.bmp"
+IDB_OCTLAB              BITMAP                  "res\\OCTLAB.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About openOCT..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\openOCT.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

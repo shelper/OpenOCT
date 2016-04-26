@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openOCT", "openOCT.vcxproj", "{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}.Debug|Win32.Build.0 = Debug|Win32
+		{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}.Release|Win32.ActiveCfg = Release|Win32
+		{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}.Release|Win32.Build.0 = Release|Win32
+		{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}.Template|Win32.ActiveCfg = Template|Win32
+		{521889F0-1A5E-4806-AEF0-5D4C7E06F6A4}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
